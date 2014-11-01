@@ -1,5 +1,42 @@
 # Bringing Unit Testing and TDD To Rails 
 
+## Darren Cauthon
+
+---
+
+## A little about me
+
+- .Net developer for over 10 years
+- Ruby developer for about 5 years
+
+---
+
+## First half of my career
+
+- Timid
+- Stressed
+- Unsure of myself
+- Scared to share my code
+
+---
+
+## Last half of my career
+
+- Confident
+- At ease
+- Know I'm capable of writing working software
+- Put everything up on Github
+
+---
+
+## The Main Difference
+
+# TDD
+
+---
+
+# I'm here to give the TDD talk I wish I heard before moving to Ruby / Rails
+
 ---
 
 # [fit] What's a
@@ -254,9 +291,29 @@ class PostsControllerTest < ActionController::TestCase
 
 ---
 
+# Why Does This Matter?
+
+## With unit tests, you can TDD
+## Without unit tests, you can't TDD
+
+---
+
+# Why Does TDD Matter?
+
+- Humans are great calculators at what we can fit in our head
+- Humans have very limited RAM
+
+---
+
 # What I Advocate Today
 
-Test the code you write.
+- Test the code you write, before you write it.
+- Let the tests drive your design.
+
+---
+
+![left](rails_architecture_4.jpg)
+![right](rails_architecture_5.jpg)
 
 ---
 
