@@ -302,6 +302,12 @@ class PostsControllerTest < ActionController::TestCase
 
 - Humans are great calculators at what we can fit in our head
 - Humans have very limited RAM
+- Test Driven Development Aligns With This Fact
+
+---
+
+![left](rails_architecture_4.jpg)
+![right](rails_architecture_5.jpg)
 
 ---
 
@@ -309,11 +315,6 @@ class PostsControllerTest < ActionController::TestCase
 
 - Test the code you write, before you write it.
 - Let the tests drive your design.
-
----
-
-![left](rails_architecture_4.jpg)
-![right](rails_architecture_5.jpg)
 
 ---
 
@@ -804,7 +805,7 @@ end
 
 ---
 
-# Methods to mitigate unit-test-heavy Rails development
+# Ways to mitigate problems with unit-test-heavy Rails development
 
 ---
 
@@ -812,7 +813,8 @@ end
 
 - It's fine, but never at the expense of the unit tests.
 - Test the "happy path."
-- Keep them light as a feather.
+- Light as a feather.
+- Separate from your Unit Tests
 
 <br />
 
